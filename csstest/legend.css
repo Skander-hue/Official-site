@@ -1,0 +1,58 @@
+*
+{
+border-color:rgb(0, 0, 0)
+font-family: comic,Arial, Helvetica, sans-serif;
+}
+input
+{
+display:block;
+padding: 2px;
+margin-bottom: 4px;
+transition: all 1s ease;
+}
+.inp:focus
+{
+background-color: rgb(255, 255, 255);
+color:rgb(3, 2, 1) ; 
+font-weight: bolder;  
+font-size:medium; 
+}
+legend
+{
+color:rgb(0, 0, 0); 
+}
+.form-center
+{
+    display:flex;
+    justify-content: center;
+}
+fieldset
+{
+background-image: url("img/lambo.jpg");
+width: 200px; height: 500px;
+}
+label
+{
+color: rgb(0, 0, 0);
+text-decoration:underline;
+text-transform:capitalize;
+}
+#em
+{
+color:rgb(0, 0, 0);
+font-weight:bolder;
+}
+.bt
+{
+color:rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+border-radius: 10px; 
+cursor: pointer;
+display: inline-block;
+}
+.bt:hover
+{
+    background-color: rgb(255, 255, 255);
+    color:rgb(2, 1, 1);
+    padding: 3px;
+}
